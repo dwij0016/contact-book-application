@@ -36,12 +36,17 @@ def book():
             del s[io]
             print(s)
 
+        def veiw():
+            print(s)
+
         if operation == 1:
             a()
         elif operation == 2:
             u()
         elif operation == 3:
             de()
+        elif operation == 4:
+            veiw()
         else:
-            print('jkgfkjd')
+            print('invalid code')
 book()
