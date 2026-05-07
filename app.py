@@ -38,6 +38,9 @@ def book():
 
         def veiw():
             print(s)
+        
+        def ex():
+            print('bye-bye')
 
         if operation == 1:
             a()
@@ -47,6 +50,9 @@ def book():
             de()
         elif operation == 4:
             veiw()
+        elif operation == 5:
+            ex()
+            break
         else:
             print('invalid code')
 book()
